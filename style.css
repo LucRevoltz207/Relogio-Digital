@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body, html{
+    font-family: 'Open Sans', sans-serif;
+background: #161616;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container #display{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15vw;
+    background-image: linear-gradient(135deg,#8714d3 20% , #ff3bc4 100%);    
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, .05);
+    border-radius: 5%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: txt;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+.footer {
+    width: 100%;
+    background-color: #8714d3;
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+    margin-top: 600px;}
